@@ -26,7 +26,7 @@ export default function Home({ navigation }) {
     </View>
     <TouchableOpacity
         style={styles.buttonContainer}
-        onPress={() => navigation.navigate('ROI Staff Listing')}
+        onPress={() => navigation.navigate('ROI Staff')}
       >
         <Text style={styles.buttonText}>Enter</Text>
       </TouchableOpacity>

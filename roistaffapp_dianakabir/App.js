@@ -16,8 +16,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 import HomeScreen from './Screens/Home'
 import SettingsScreen from './Screens/Settings'
-import ToDo from './Screens/ToDo'
-import StaffListing from './Screens/StaffListing'
+import ROIStaff from './Screens/ROIStaff'
 
 const Drawer = createDrawerNavigator();
 
@@ -28,8 +27,8 @@ export default function App() {
       <Drawer.Navigator initialRouteName="Home" useLegacyImplementation screenOptions={styles.navigatorHeading}>
         <Drawer.Screen name="Home" component={HomeScreen} />
         <Drawer.Screen name="Settings" component={SettingsScreen} />
-        <Drawer.Screen name="ToDo" component={ToDo} />
-        <Drawer.Screen name="ROI Staff Listing" component={StaffListing} />
+        <Drawer.Screen name="ROI Staff" component={ROIStaff} />
+      
       </Drawer.Navigator>
     </NavigationContainer>
   );
